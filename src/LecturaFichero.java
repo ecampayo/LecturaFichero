@@ -9,7 +9,7 @@ public class LecturaFichero {
             while (valor!=-1){
                 //Si el valor es un espacio no lo escribirá
                 if (valor!=32){
-                    System.out.println((char)valor);
+                    System.out.print((char)valor);
                 }
                 valor=fr.read();
             }
